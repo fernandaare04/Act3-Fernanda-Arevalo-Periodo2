@@ -1,0 +1,71 @@
+body{
+font-family: Arial, sans-serif;
+background:#f5f7fb;
+text-align:center;
+margin:40px;
+}
+
+h1{
+color:#333;
+text-transform:uppercase;
+letter-spacing:2px;
+}
+
+.intro{
+width:70%;
+margin:auto;
+margin-bottom:40px;
+line-height:1.6;
+}
+
+/* contenedor */
+
+.contenedor{
+display:flex;
+justify-content:center;
+gap:25px;
+}
+
+/* cajas */
+
+.caja{
+width:260px;
+padding:20px;
+border-radius:12px;
+background:white;
+box-shadow:0 5px 12px rgba(0,0,0,0.1);
+}
+
+/* CAJA 1 */
+
+.caja1{
+color:#ff4f7b;
+text-align:center;
+text-transform:uppercase;
+letter-spacing:2px;
+text-shadow:1px 1px 4px rgba(0,0,0,0.2);
+vertical-align:middle;
+background:#ffe8ee;
+}
+
+/* CAJA 2 */
+
+.caja2{
+color:#2c6fff;
+text-align:justify;
+line-height:1.8;
+word-spacing:5px;
+direction:ltr;
+background:#eaf1ff;
+}
+
+/* CAJA 3 */
+
+.caja3{
+color:#2e7d32;
+text-decoration:underline;
+text-indent:25px;
+white-space:normal;
+letter-spacing:1px;
+background:#e9ffe9;
+}
